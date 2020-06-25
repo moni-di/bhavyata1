@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHAVYATA FOUNDATION</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        padding: 40px;
+    }
+
+    .container {
+        width: 40%;
+        margin: 5px auto;
+        text-align: left;
+    }
+
+    p,
+    ul {
+        font-weight: 500;
+        font-size: 12px;
+        color: #404040;
+    }
+
+    p {
+        margin: 5px auto;
+    }
+
+    .image img {
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+
+    #list {
+        padding: 0 15px;
+    }
+
+    .footer {
+        /* padding: 7.9rem; */
+        /* background-color: #121212;
+        color: #fff; */
+        text-align: center;
+        /* position: relative; */
+    }
+
+    .social-icons {
+        list-style: none;
+        /* margin-bottom: 5.4rem; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-icons i {
+        font-size: 1rem;
+        color: #404040;
+        padding: 0 1.2rem;
+    }
+
+    #date {
+        margin: 10px 0;
+    }
+
+    #amount {
+        font-weight: 600;
+        margin: 5px;
+    }
+
+    #btn {
+        outline: none;
+        border: 2px solid #404040;
+        border-radius: 5px;
+        background: none;
+        padding: 5px 15px;
+        cursor: pointer;
+        display: block;
+        margin: 10px 0;
+    }
+
+    #btn a {
+        text-decoration: none;
+        color: #404040;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    .fa-phone {
+        transform: rotate(90deg);
+    }
+
+    #flex {
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 12px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .fa-phone, .fa-envelope{
+        color: #404040;
+        padding: 0 0.5rem;
+    }
+
+    #note{
+        font-size: 8px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <a href="https://www.bhavyata.com" target="_blank"><img src="plant.jpg" alt=""></a>
+            <br>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h3>PLANT A CARETAKER</h3>
+        <p id="p1">Bhavyata Foundation has partnered with Keshav Shrusti Gram Vikas Yojana to plant 1200 mango saplings
+            and 2500 bamboo saplings in the Wada & Vikramgad block of Palghar district through community as
+            stakeholders.</p>
+
+        <p id="p2">We have identified 140 tribal families in this region, who desperately need our help. With around 30
+            trees allotted per family, it shall be just enough for them to lead a dignified life without having to
+            despair about fluctuating incomes. These trees will start to produce yields just four years from planting.
+        </p>
+        <br>
+        <h4 id="contribute">How can we contribute to this?</h4>
+        <p>With 30 Mango saplings (@ INR 100 per sapling) and 30 bamboo saplings (@ INR 17 per sapling). </p>
+        <p>You can sponsor number of trees you wish to.</p>
+        <ul id="list">
+            <li>
+                Mango saplings for 40 families: <span id="amount">INR 3000</span>
+            </li>
+            <li>
+                Bamboo Saplings for 100 families: <span id="amount">INR 500</span>
+            </li>
+        </ul>
+
+        <button id="btn"><a href="https://bhavyata.com/plantacaretaker/" target="_blank">
+                <h4>DONATE</h4>
+            </a></button>
+
+        <h5 id="date">Date of plantation: 28th June - 3rd July 2020</h5>
+
+        <p>
+            Adopting 30 trees shall mean you will provide a livelihood to an entire family for the rest of their lives
+            and also will contribute to fixing min. of 6 tonnes of carbon dioxide in the air.
+        </p>
+
+        <p>
+            A wisely and timely donation can take this campaign to a livelihood revolution. Let’s contribute and take
+            that one step towards a better tomorrow for humankind.
+        </p>
+        <br>
+
+        <div class="container">
+            <a href="https://www.bhavyata.com" target="_blank"><img src="Bhavyata Logo full.png" id="logo" alt=""></a>
+        </div>
+
+        <div class="footer">
+            <div class="social-media">
+                <!-- <h4>Follow Along</h4> -->
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://twitter.com/bhavyataf" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/NGObhavyata" target="_blank"><i
+                                class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/bhavyata" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bhavyatafoundation/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <div id="flex">
+                    <div class="call">
+                        <span>
+                            <i class="fa fa-phone"></i>
+                        </span>
+
+                        <span id="text">+91-7506882281</span>
+                    </div>
+                    <div class="mail">
+                        <span>
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <a href="https://bhavyata.com/contactus/"><span id="text">info@bhavyata.com</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p id="note">* Donations are tax-exempt under Section 80G. Community Support, as well as CSR Funding, are welcome as well.</p>
+    </div>
+
+</body>
+
+</html>
